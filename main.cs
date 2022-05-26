@@ -17,24 +17,24 @@ class Program
         while (true)
         {
             Console.Write("Would you like to add1 or quit? ");
-        reply = Console.ReadLine();
+         reply = Console.ReadLine();
 
-        if (reply == "add1")
-        {
-        switch (reply)
-        {
-            case "add1":
-            cookie = cookie + 1;
-            Console.Write("You now have " + cookie + " cookies.");
-            Console.WriteLine("");
-            continue;
-        }
-        }
-            else if ( reply == "quit")
+         if (reply == "add1")
+         {
+         switch (reply)
+         {
+             case "add1":
+             cookie = cookie + 1;
+             Console.Write("You now have " + cookie + " cookies.");
+             Console.WriteLine("");
+             continue;
+         }
+         }
+            else if (reply == "quit")
             {
-            Console.WriteLine("\nDone.");
-            break;
-        }
+             Console.WriteLine("\nDone.");
+             break;
+         }
         }
     }
 }
