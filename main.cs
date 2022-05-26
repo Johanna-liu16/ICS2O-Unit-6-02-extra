@@ -14,11 +14,13 @@ class Program
         Console.WriteLine("Cookie Clicker!");
         Console.WriteLine("");
 
-        while (true) {
+        while (true)
+        {
             Console.Write("Would you like to add1 or quit? ");
         reply = Console.ReadLine();
 
-        if (reply == "add1") {
+        if (reply == "add1")
+        {
         switch (reply)
         {
             case "add1":
@@ -28,10 +30,11 @@ class Program
             continue;
         }
         }
+            else if ( reply == "quit")
+            {
             Console.WriteLine("\nDone.");
-
-
+            break;
         }
         }
-                        }
     }
+}
