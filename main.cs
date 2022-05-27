@@ -18,7 +18,7 @@ class Program
         {
             Console.Write("Would you like to add1 or quit? ");
             reply = Console.ReadLine();
-            
+
             if (reply == "add1")
             {
                 switch (reply)
